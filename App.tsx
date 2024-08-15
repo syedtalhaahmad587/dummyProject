@@ -33,7 +33,6 @@ function App() {
     headerTitleAlign: 'center' // Center the title
   }} />
               <Stack.Screen name="VerifyAddressScreen" component={VerifyAddressScreen} options={{ headerShown: false }} />
-             
               </Stack.Navigator>
               </NavigationContainer>
             </SafeAreaProvider>
